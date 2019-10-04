@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla One:100,200,300,400,500,600,700:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family= Londrina Outline:100,200,300,400,500,600,700|Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 html,body
 {
@@ -28,9 +28,7 @@ header {
     left: 35vw;
     opacity: .8;
 }
-#icon-bar {
-    
-}
+
 
 #header-bar {
     font-family: "Roboto Condensed";
@@ -44,7 +42,7 @@ li a, a:hover, a:visited, a:link, a:active {
 
 li a:hover {
     color: #F987C5;
-    opacity: 0.9 ;
+    ;
     transition: all .3s;
 }
 
@@ -81,7 +79,7 @@ h1 {
   border: 0px;
 }
 #video-textbox {
-  padding: 25px 60px;  
+  padding: 30px 50px;  
 }
 
 #video-title {
@@ -96,11 +94,12 @@ h1 {
 #view-videos {
     color: #fafafa;
     text-decoration: none;
+    font-family:"Roboto Condensed";
+    font-weight: 700;
 }
 
 #video-list tr td a:hover{
     color: #F987C5;
-    opacity: 0.9 ;
     transition: all .3s;
 }
 
@@ -115,8 +114,8 @@ h1 {
    width:100%;
 }
 
-table {
-    font-family: arial, sans-serif;
+table { 
+    
     border-collapse: collapse;
     width: 100%;
     margin: 100px 0px 50px 0px;
@@ -150,11 +149,11 @@ td {
 #tour-icons {
     text-decoration: none;
     color:#fafafa;
+    font-size: 13px;
 }
 
 #tour-list tr td a:hover{
     color: #F987C5;
-    opacity: 0.9 ;
     transition: all .3s;
 }
 
@@ -181,8 +180,8 @@ td {
 
 #track-number {
     font-weight: 600;
-    font-family: "Fjalla One";
-    font-size: 15px;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
     color: #fafafa;
     opacity: 0.6;
 }
@@ -212,6 +211,5 @@ td {
 
 #track-list tr td a:hover{
     color: #F987C5;
-    opacity: 0.9 ;
     transition: all .3s;
 }
