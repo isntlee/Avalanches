@@ -7,6 +7,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
 }
 
 /*---------------------- Nav Bar ------------------------*/
@@ -27,14 +28,24 @@ header {
     left: 35vw;
     opacity: .8;
 }
+#icon-bar {
+    
+}
 
-#header-details {
+#header-bar {
     font-family: "Roboto Condensed";
     font-weight: 600;
 }
 
-li a {
+li a, a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
     color: #fafafa;
+}
+
+li a:hover {
+    color: #F987C5;
+    opacity: 0.9 ;
+    transition: all .3s;
 }
 
 li i { 
@@ -83,7 +94,14 @@ h1 {
 }
 
 #view-videos {
-    
+    color: #fafafa;
+    text-decoration: none;
+}
+
+#video-list tr td a:hover{
+    color: #F987C5;
+    opacity: 0.9 ;
+    transition: all .3s;
 }
 
 /*---------------------- Tour Dates ------------------------*/
@@ -110,6 +128,7 @@ td {
   color: #fafafa;
 }
 
+
 #tour-dates {
     font-weight: 600;
     font-family: "Roboto Condensed";
@@ -125,8 +144,20 @@ td {
 
 #fa-fonts{
     font-family: "Roboto Condensed";
-    font-weight: 600; 
+    font-weight: 600;
 }
+
+#tour-icons {
+    text-decoration: none;
+    color:#fafafa;
+}
+
+#tour-list tr td a:hover{
+    color: #F987C5;
+    opacity: 0.9 ;
+    transition: all .3s;
+}
+
 
 /*---------------------- Album/Singles ------------------------*/
 
@@ -166,8 +197,9 @@ td {
 
 #track-icon {
     color: #fafafa;
-    padding: 10px;
+    padding: 0px;
     opacity: 1.2;
+    text-decoration: none;
 }
 
 #wildflower-pic {
@@ -176,4 +208,10 @@ td {
     position: relative;
     left: 10%;
     top: 15%;
+}
+
+#track-list tr td a:hover{
+    color: #F987C5;
+    opacity: 0.9 ;
+    transition: all .3s;
 }
