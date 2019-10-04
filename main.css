@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla One:100,200,300,400,500,600,700:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/*---------------------- Nav Bar ------------------------*/
+
+header {
+    background-image: url('images/StarryNight-croppedMore.1.jpg');
+    background-color: #202020;
+    min-height: 50px;
+    margin: 0;
+    width:100%;
+}
+
+#title {
+    font-family: "Fjalla One";
+    font-weight: 600;
+    color: #fafafa;
+    font-size: 50px;
+    left: 35vw;
+    opacity: .8;
+}
+
+#header-details {
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+}
+
+li a {
+    color: #fafafa;
+}
+
+li i { 
+    padding : 0px 10px; 
+}
+
+h1 {
+    color: black;
+}
+
+/*---------------------- Video Intro ------------------------*/
+
+#video-intro {
+  position: relative;
+  margin: -7px 0px;
+  padding: 0px 0px;
+  width: 100%;
+  min-height: 100vh;
+}  
+
+/*---------------------- Video Player ------------------------*/
+
+#video-player {
+    background-image: url('images/StarryNight-croppedMore.jpg');
+    min-height: 80vh;
+    width: 100%;
+}
+
+#video-player-video {
+  position: relative;
+  left: 100px;
+  top: 150px;
+  border: 0px;
+}
+#video-textbox {
+  padding: 25px 60px;  
+}
+
+#video-title {
+    font-family: "Roboto Condensed";
+    font-size: 40px;
+}
+
+#video-date {
+    font-family: arial;
+}
+
+#view-videos {
+    
+}
+
+/*---------------------- Tour Dates ------------------------*/
+
+#tour-background {
+   background-image: url('images/StarryNight-cropped.jpg'); 
+   min-height: 80vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;;
+   width:100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 100px 0px 50px 0px;
+}
+
+td {
+  text-align: left;
+  padding: 20px 25px;
+  color: #fafafa;
+}
+
+#tour-dates {
+    font-weight: 600;
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+}
+
+#tour-address {
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+#fa-fonts{
+    font-family: "Roboto Condensed";
+    font-weight: 600; 
+}
+
+/*---------------------- Album/Singles ------------------------*/
+
+#album-background {
+   background-image: url('images/Wildflower-background.jpg'); 
+   background-size: cover;
+   background-position: 0% 35%;
+   background-repeat: no-repeat;
+   position: relative;
+   opacity: 0.9;
+   width: 100%;
+   min-height: 100vh;
+}
+
+#album-banner {
+    font-weight: 600;
+    font-family: "Fjalla One";
+    font-size: 50px;
+    color: #fafafa;
+}
+
+#track-number {
+    font-weight: 600;
+    font-family: "Fjalla One";
+    font-size: 15px;
+    color: #fafafa;
+    opacity: 0.6;
+}
+
+#track-title {
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #fafafa;
+    margin-bottom: 5px;
+}
+
+#track-icon {
+    color: #fafafa;
+    padding: 10px;
+    opacity: 1.2;
+}
+
+#wildflower-pic {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
