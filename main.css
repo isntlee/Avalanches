@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family= Londrina Outline:100,200,300,400,500,600,700|Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 html,body
@@ -118,7 +119,7 @@ table {
 
     border-collapse: collapse;
     width: 100%;
-    margin: 100px 0px 50px 0px;
+    margin: 80px 0px 50px 0px;
 }
 
 td {
