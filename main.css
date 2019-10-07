@@ -46,8 +46,8 @@ li a:hover {
     transition: all .3s;
 }
 
-li i { 
-    padding : 0px 10px; 
+li i {
+    padding : 0px 10px;
 }
 
 h1 {
@@ -62,7 +62,7 @@ h1 {
   padding: 0px 0px;
   width: 100%;
   min-height: 100vh;
-}  
+}
 
 /*---------------------- Video Player ------------------------*/
 
@@ -79,7 +79,7 @@ h1 {
   border: 0px;
 }
 #video-textbox {
-  padding: 30px 50px;  
+  padding: 30px 50px;
 }
 
 #video-title {
@@ -106,7 +106,7 @@ h1 {
 /*---------------------- Tour Dates ------------------------*/
 
 #tour-background {
-   background-image: url('images/StarryNight-cropped.jpg'); 
+   background-image: url('images/StarryNight-croppedMore.jpg');
    min-height: 80vh;
    background-size: cover;
    background-repeat: no-repeat;
@@ -114,8 +114,8 @@ h1 {
    width:100%;
 }
 
-table { 
-    
+table {
+
     border-collapse: collapse;
     width: 100%;
     margin: 100px 0px 50px 0px;
@@ -161,7 +161,7 @@ td {
 /*---------------------- Album/Singles ------------------------*/
 
 #album-background {
-   background-image: url('images/Wildflower-background.jpg'); 
+   background-image: url('images/Wildflower-background.jpg');
    background-size: cover;
    background-position: 0% 35%;
    background-repeat: no-repeat;
@@ -213,3 +213,13 @@ td {
     color: #F987C5;
     transition: all .3s;
 }
+
+/*---------------------- Contact/Details------------------------*/
+
+#contact-background {
+   background-image: url('images/StarryNight-cropped.jpg');
+   min-height: 80vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;;
+   width:100%;
