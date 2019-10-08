@@ -1,12 +1,12 @@
-
-@import url('https://fonts.googleapis.com/css?family= Londrina Outline:100,200,300,400,500,600,700|Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
 html,body
 {
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0vw;
+    padding: 0vw;
     overflow-x: hidden;
 
 }
@@ -16,20 +16,23 @@ html,body
 header {
     background-image: url('images/StarryNight-croppedMore.1.jpg');
     background-color: #202020;
-    min-height: 50px;
+    min-height: 10vh;
     margin: 0;
-    width:100%;
+    width:100vw;
 }
 
 #title {
     font-family: "Fjalla One";
     font-weight: 600;
     color: #fafafa;
-    font-size: 50px;
-    left: 35vw;
+    font-size: 8vh;
+    left: 33vw;
     opacity: .8;
 }
 
+#icon-bar {
+    font-size: 2.7vh;
+}
 
 #header-bar {
     font-family: "Roboto Condensed";
@@ -43,12 +46,11 @@ li a, a:hover, a:visited, a:link, a:active {
 
 li a:hover {
     color: #F987C5;
-    ;
     transition: all .3s;
 }
 
 li i {
-    padding : 0px 10px;
+    padding : 0vw .8vw;
 }
 
 h1 {
@@ -59,37 +61,41 @@ h1 {
 
 #video-intro {
   position: relative;
-  margin: -7px 0px;
-  padding: 0px 0px;
-  width: 100%;
-  min-height: 100vh;
+  margin: -1vh 0vw;
+  padding: 0vh 0vw;
+  width: 100vw;
+  min-height: 100%;
 }
 
 /*---------------------- Video Player ------------------------*/
 
 #video-player {
     background-image: url('images/StarryNight-croppedMore.jpg');
-    min-height: 80vh;
-    width: 100%;
+    min-height: 80%;
+    width: 100vw;
 }
 
 #video-player-video {
   position: relative;
-  left: 100px;
-  top: 150px;
-  border: 0px;
+  left: 8vw;
+  top: 22vh;
+  border: 0vh;
 }
 #video-textbox {
-  padding: 30px 50px;
+  padding: 14vh 5vw 4vh;
 }
 
 #video-title {
     font-family: "Roboto Condensed";
-    font-size: 40px;
+    font-size: 6vh;
 }
 
 #video-date {
     font-family: arial;
+}
+
+#video-details {
+    font-size: 2vh;
 }
 
 #view-videos {
@@ -97,6 +103,7 @@ h1 {
     text-decoration: none;
     font-family:"Roboto Condensed";
     font-weight: 700;
+    padding-top: 6vh;
 }
 
 #video-list tr td a:hover{
@@ -119,7 +126,7 @@ table {
 
     border-collapse: collapse;
     width: 100%;
-    margin: 80px 0px 50px 0px;
+    margin: 40px 0px 80px 0px;
 }
 
 td {
@@ -130,9 +137,9 @@ td {
 
 
 #tour-dates {
-    font-weight: 600;
+    font-weight: 700;
     font-family: "Roboto Condensed";
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #tour-address {
@@ -158,6 +165,13 @@ td {
     transition: all .3s;
 }
 
+#view-tour {
+    color: #fafafa;
+    text-decoration: none;
+    font-family:"Roboto Condensed";
+    font-weight: 700;
+}
+
 
 /*---------------------- Album/Singles ------------------------*/
 
@@ -167,7 +181,6 @@ td {
    background-position: 0% 35%;
    background-repeat: no-repeat;
    position: relative;
-   opacity: 0.9;
    width: 100%;
    min-height: 100vh;
 }
@@ -198,8 +211,8 @@ td {
 #track-icon {
     color: #fafafa;
     padding: 0px;
-    opacity: 1.2;
     text-decoration: none;
+    font-size: 20px;
 }
 
 #wildflower-pic {
@@ -218,9 +231,118 @@ td {
 /*---------------------- Contact/Details------------------------*/
 
 #contact-background {
+   color: #fafafa;
    background-image: url('images/StarryNight-cropped.jpg');
-   min-height: 80vh;
+   min-height: 100vh;
    background-size: cover;
    background-repeat: no-repeat;
-   position: relative;;
-   width:100%;
+   position: relative;
+   width: 100%;
+}
+
+#contact-deets {
+    color: #fafafa;
+    font-family:"Roboto Condensed";
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#email-updates{
+    padding-top: 25vh;
+    font-weight: 500;
+}
+
+*:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fafafa;
+    font-weight: 500;
+}
+
+#email-address{
+    color: #F987C5;
+    background-color: transparent;
+    width: 46vw;
+    padding-top: 12vh;
+    border: none;
+    border-bottom: 0.5px solid #fafafa;
+}
+
+#address{
+    color: #F987C5;
+    width:23vw;
+    background-color: transparent;
+    border: none;
+    padding-top: 8vh;
+    border-bottom: 1px solid #fafafa;
+}
+
+#postcode{
+    color: #F987C5;
+    width:23vw;
+    background-color: transparent;
+    border: none;
+    padding-top: 8vh;
+    border-bottom: 1px solid #fafafa;
+}
+#subscribe {
+    padding-top: 9vh;
+}
+
+#check-box {
+    padding-top: 1vh;
+}
+
+#agreement {
+    padding-top: 1vh;
+    padding-bottom: -5vh;
+    font-style: italic;
+ }
+
+ #check-box-box {
+    padding-top: 1vh;
+    padding-left: 0vw;
+    font-size: 10px;
+}
+
+
+#subscribe-button {
+    font-size: 18px;
+    color: #fafafa;
+    font-weight: 600;
+    margin-left: -1vw;
+    padding-left: -1vw;
+    padding-top: 0vh;
+    background-color: transparent;
+    border: 0px;
+}
+
+#subscribe-button:hover {
+    color: #FF66CC;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+
+/*---------------------- Footer ------------------------*/
+
+#full-footer{
+    background-color: #000000;
+    min-height: 5vh;
+    min-width:100%;
+}
+
+#footer-bar {
+    color: #fafafa;
+    font-size: 18px;
+}
+
+#links-bar {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: -1vw;
