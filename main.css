@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
-html,body
-{
+html,body {
     width: 100%;
     height: 100%;
     margin: 0vw;
     padding: 0vw;
     overflow-x: hidden;
-
 }
 
-/*---------------------- Nav Bar ------------------------*/
+/*------------------------------- Nav Bar ---------------------------------*/
 
 header {
     background-image: url('images/StarryNight-croppedMore.1.jpg');
@@ -26,8 +24,10 @@ header {
     font-weight: 600;
     color: #fafafa;
     font-size: 8vh;
-    left: 33vw;
+    left: 33.5vw;
+    opacity: 0.75;
     opacity: .8;
+
 }
 
 #icon-bar {
@@ -37,6 +37,8 @@ header {
 #header-bar {
     font-family: "Roboto Condensed";
     font-weight: 600;
+    padding-bottom: -2vh;
+    font-size:
 }
 
 li a, a:hover, a:visited, a:link, a:active {
@@ -57,7 +59,7 @@ h1 {
     color: black;
 }
 
-/*---------------------- Video Intro ------------------------*/
+/*------------------------------ Video Intro -------------------------------*/
 
 #video-intro {
   position: relative;
@@ -67,7 +69,7 @@ h1 {
   min-height: 100%;
 }
 
-/*---------------------- Video Player ------------------------*/
+/*------------------------------ Video Player --------------------------------*/
 
 #video-player {
     background-image: url('images/StarryNight-croppedMore.jpg');
@@ -81,6 +83,7 @@ h1 {
   top: 22vh;
   border: 0vh;
 }
+
 #video-textbox {
   padding: 14vh 5vw 4vh;
 }
@@ -111,7 +114,7 @@ h1 {
     transition: all .3s;
 }
 
-/*---------------------- Tour Dates ------------------------*/
+/*------------------------------ Tour Dates --------------------------------*/
 
 #tour-background {
    background-image: url('images/StarryNight-croppedMore.jpg');
@@ -126,7 +129,8 @@ table {
 
     border-collapse: collapse;
     width: 100%;
-    margin: 40px 0px 80px 0px;
+    margin: 40px 0px 20px 0px;
+
 }
 
 td {
@@ -166,14 +170,22 @@ td {
 }
 
 #view-tour {
+    text-align:center;
+    display:block;
     color: #fafafa;
     text-decoration: none;
     font-family:"Roboto Condensed";
     font-weight: 700;
+    padding: 6vh 8vw 0vh 0vw;
+
 }
 
+#view-tour:hover{
+    color: #F987C5;
+    transition: all .3s;
 
-/*---------------------- Album/Singles ------------------------*/
+}
+/*------------------------------ Album/Singles -------------------------------*/
 
 #album-background {
    background-image: url('images/Wildflower-background.jpg');
@@ -181,8 +193,10 @@ td {
    background-position: 0% 35%;
    background-repeat: no-repeat;
    position: relative;
+   min-width: 100%;
    width: 100%;
    min-height: 100vh;
+   opacity: 0.90;
 }
 
 #album-banner {
@@ -224,11 +238,11 @@ td {
 }
 
 #track-list tr td a:hover{
-    color: #F987C5;
+    color: #FF66CC;
     transition: all .3s;
 }
 
-/*---------------------- Contact/Details------------------------*/
+/*----------------------------- Contact/Details-------------------------------*/
 
 #contact-background {
    color: #fafafa;
@@ -328,7 +342,7 @@ td {
 }
 
 
-/*---------------------- Footer ------------------------*/
+/*------------------------------ Footer --------------------------------*/
 
 #full-footer{
     background-color: #000000;
@@ -338,7 +352,7 @@ td {
 
 #footer-bar {
     color: #fafafa;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #links-bar {
@@ -346,3 +360,244 @@ td {
     font-weight: 400;
     font-size: 12px;
     margin-left: -1vw;
+}
+
+
+/*------------------------------ Media Queries --------------------------------*/
+
+
+@media(max-width:315px) {    /*---------------------- max:315px ------------------------*/
+    #title {
+        font-size: 6vh;
+        left: 10%;
+    }
+
+    #icon-bar {
+        font-size: 3vh;
+        padding: 0vw 15vw;
+    }
+
+    #header-bar {
+        padding-left: .5vw;
+        padding-bottom: -2vh;
+        font-size: 2vh;
+        }
+
+    td {
+        padding: 3vh 4vw;
+        }
+
+    #tour-dates {
+        font-size: 2.2vh;
+        }
+
+    #tour-address {
+        font-size: 1.6vh;
+        margin-bottom: 5px;
+        }
+
+    #tour-icons {
+        font-size: 1.3vh;
+        }
+
+    #view-tour {
+        padding-top: -3vh;
+        padding-bottom: 4vh;
+        font-size: 2.2vh;
+        }
+
+    #album-background {
+       background-position: 70% 0%;
+       background-repeat: no-repeat;
+       position: relative;
+       width: 100%;
+       min-height: 100vh;
+       opacity: 0.99;
+        }
+
+    #track-number {
+        font-weight: 600;
+        font-family: "Roboto Condensed";
+        font-size: 2.5vh;
+        color: #fafafa;
+        opacity: 0.6;
+}
+
+    #track-title {
+        font-weight: 500;
+        font-family: "Roboto";
+        font-size: 2vh;
+        color: #fafafa;
+        margin-bottom: 5px;
+}
+
+    #track-icon {
+        color: #fafafa;
+        padding: 0px;
+        text-decoration: none;
+        font-size: 3vh;
+    }
+
+    #wildflower-pic {
+        height: 100%;
+        width: 80vw;
+        position: relative;
+        left: 7%;
+        top: 7%;
+        }
+
+    #links-bar {
+        font-size: 1.1vh;
+        }
+}
+
+
+
+@media (max-width:424px) {    /*---------------------- max:424px ------------------------*/
+    #title {
+        font-size: 8vh;
+        left: 10%;
+    }
+
+    #icon-bar {
+        font-size: 5vh;
+        padding: 0vw 12vw;
+    }
+
+    #header-bar {
+        padding-left: 2.5vw;
+        padding-bottom: -2vh;
+        font-size: 2.5vh;
+        }
+
+    td {
+        padding: 3vh 4vw;
+        }
+
+    #tour-dates {
+        font-size: 3vh;
+        }
+
+    #tour-address {
+        font-size: 2vh;
+        margin-bottom: 5px;
+        }
+
+    #tour-icons {
+        font-size: 1.8vh;
+        }
+
+    #view-tour {
+        padding-top: -3vh;
+        font-size: 2.5vh;
+        }
+
+    #album-background {
+       background-position: 70% 0%;
+       background-repeat: no-repeat;
+       position: relative;
+       width: 100%;
+       min-height: 100vh;
+       opacity: 0.99;
+        }
+
+    #wildflower-pic {
+        height: 100%;
+        width: 80vw;
+        position: relative;
+        left: 7%;
+        top: 7%;
+        }
+
+    #links-bar {
+        font-size: 1.5vh;
+        }
+}
+
+
+@media (max-width:770px) {    /*---------------------- max:770px ------------------------*/
+    #title {
+        font-size: 10vh;
+        left: 10%;
+    }
+
+    #icon-bar {
+        font-size: 3vh;
+        padding: 0vw 0vw;
+    }
+
+    #header-bar {
+        padding-left: 2.5vw;
+        padding-bottom: -2vh;
+        font-size: 2.5vh;
+        }
+
+    td {
+        padding: 3vh 4vw;
+        }
+
+    #tour-dates {
+        font-size: 3vh;
+        }
+
+    #tour-address {
+        font-size: 2vh;
+        margin-bottom: 5px;
+        }
+
+    #tour-icons {
+        font-size: 1.8vh;
+        }
+
+    #view-tour {
+        padding-top: -3vh;
+        font-size: 2.5vh;
+        }
+
+    #album-background {
+       background-position: 70% 0%;
+       background-repeat: no-repeat;
+       position: relative;
+       width: 100%;
+       min-height: 100vh;
+       opacity: 0.99;
+        }
+
+    #wildflower-pic {
+        height: 100%;
+        width: 80vw;
+        position: relative;
+        left: 7%;
+        top: 7%;
+        }
+
+    #links-bar {
+        font-size: 1.5vh;
+        }
+
+
+    }
+
+
+
+/*---------------------- Responsive Video Code  ------------------------*/
+
+     /*
+
+        .youtube-responsive-container {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+        }
+
+        .youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        }
+}
+                            */
