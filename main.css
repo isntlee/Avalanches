@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
-html,body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0vw;
@@ -16,7 +17,7 @@ header {
     background-color: #202020;
     min-height: 10vh;
     margin: 0;
-    width:100vw;
+    width: 100vw;
 }
 
 #title {
@@ -38,10 +39,13 @@ header {
     font-family: "Roboto Condensed";
     font-weight: 600;
     padding-bottom: -2vh;
-    font-size:
 }
 
-li a, a:hover, a:visited, a:link, a:active {
+li a,
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
     color: #fafafa;
 }
@@ -52,7 +56,7 @@ li a:hover {
 }
 
 li i {
-    padding : 0vw .8vw;
+    padding: 0vw .8vw;
 }
 
 h1 {
@@ -62,11 +66,11 @@ h1 {
 /*------------------------------ Video Intro -------------------------------*/
 
 #video-intro {
-  position: relative;
-  margin: -1vh 0vw;
-  padding: 0vh 0vw;
-  width: 100vw;
-  min-height: 100%;
+    position: relative;
+    margin: -1vh 0vw;
+    padding: 0vh 0vw;
+    width: 100vw;
+    min-height: 100%;
 }
 
 /*------------------------------ Video Player --------------------------------*/
@@ -77,15 +81,24 @@ h1 {
     width: 100vw;
 }
 
-#video-player-video {
-  position: relative;
-  left: 8vw;
-  top: 22vh;
-  border: 0vh;
-}
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 18vh;
+    left: 7vw;
+    width:85%;
+    height: 50%;
+    }
 
 #video-textbox {
-  padding: 14vh 5vw 4vh;
+    padding: 14vh 5vw 4vh;
 }
 
 #video-title {
@@ -104,12 +117,13 @@ h1 {
 #view-videos {
     color: #fafafa;
     text-decoration: none;
-    font-family:"Roboto Condensed";
+    font-family: "Roboto Condensed";
     font-weight: 700;
     padding-top: 6vh;
 }
 
-#video-list tr td a:hover{
+
+#video-list tr td a:hover {
     color: #F987C5;
     transition: all .3s;
 }
@@ -117,26 +131,26 @@ h1 {
 /*------------------------------ Tour Dates --------------------------------*/
 
 #tour-background {
-   background-image: url('images/StarryNight-croppedMore.jpg');
-   min-height: 80vh;
-   background-size: cover;
-   background-repeat: no-repeat;
-   position: relative;;
-   width:100%;
+    background-image: url('images/StarryNight-croppedMore.jpg');
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
 }
 
 table {
 
     border-collapse: collapse;
     width: 100%;
-    margin: 40px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 
 }
 
 td {
-  text-align: left;
-  padding: 20px 25px;
-  color: #fafafa;
+    text-align: left;
+    padding: 20px 25px;
+    color: #fafafa;
 }
 
 
@@ -153,50 +167,51 @@ td {
     margin-bottom: 5px;
 }
 
-#fa-fonts{
+#fa-fonts {
     font-family: "Roboto Condensed";
     font-weight: 600;
 }
 
 #tour-icons {
     text-decoration: none;
-    color:#fafafa;
+    color: #fafafa;
     font-size: 13px;
 }
 
-#tour-list tr td a:hover{
+#tour-list tr td a:hover {
     color: #F987C5;
     transition: all .3s;
 }
 
 #view-tour {
-    text-align:center;
-    display:block;
+    text-align: center;
+    display: block;
     color: #fafafa;
     text-decoration: none;
-    font-family:"Roboto Condensed";
+    font-family: "Roboto Condensed";
     font-weight: 700;
     padding: 6vh 8vw 0vh 0vw;
 
 }
 
-#view-tour:hover{
+#view-tour:hover {
     color: #F987C5;
     transition: all .3s;
 
 }
+
 /*------------------------------ Album/Singles -------------------------------*/
 
 #album-background {
-   background-image: url('images/Wildflower-background.jpg');
-   background-size: cover;
-   background-position: 0% 35%;
-   background-repeat: no-repeat;
-   position: relative;
-   min-width: 100%;
-   width: 100%;
-   min-height: 100vh;
-   opacity: 0.90;
+    background-image: url('images/Wildflower-background.jpg');
+    background-size: cover;
+    background-position: 0% 35%;
+    background-repeat: no-repeat;
+    position: relative;
+    min-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    opacity: 0.888;
 }
 
 #album-banner {
@@ -217,7 +232,7 @@ td {
 #track-title {
     font-weight: 500;
     font-family: "Roboto";
-    font-size: 15px;
+    font-size: 14px;
     color: #fafafa;
     margin-bottom: 5px;
 }
@@ -237,7 +252,7 @@ td {
     top: 15%;
 }
 
-#track-list tr td a:hover{
+#track-list tr td a:hover {
     color: #FF66CC;
     transition: all .3s;
 }
@@ -245,25 +260,25 @@ td {
 /*----------------------------- Contact/Details-------------------------------*/
 
 #contact-background {
-   color: #fafafa;
-   background-image: url('images/StarryNight-cropped.jpg');
-   min-height: 100vh;
-   background-size: cover;
-   background-repeat: no-repeat;
-   position: relative;
-   width: 100%;
+    color: #fafafa;
+    background-image: url('images/StarryNight-cropped.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
 }
 
 #contact-deets {
     color: #fafafa;
-    font-family:"Roboto Condensed";
+    font-family: "Roboto Condensed";
     font-size: 13px;
     font-weight: 300;
     text-decoration: none;
     opacity: 0.8;
 }
 
-#email-updates{
+#email-updates {
     padding-top: 25vh;
     font-weight: 500;
 }
@@ -277,7 +292,7 @@ td {
     font-weight: 500;
 }
 
-#email-address{
+#email-address {
     color: #F987C5;
     background-color: transparent;
     width: 46vw;
@@ -286,23 +301,24 @@ td {
     border-bottom: 0.5px solid #fafafa;
 }
 
-#address{
+#address {
     color: #F987C5;
-    width:23vw;
+    width: 23vw;
     background-color: transparent;
     border: none;
     padding-top: 8vh;
     border-bottom: 1px solid #fafafa;
 }
 
-#postcode{
+#postcode {
     color: #F987C5;
-    width:23vw;
+    width: 23vw;
     background-color: transparent;
     border: none;
     padding-top: 8vh;
     border-bottom: 1px solid #fafafa;
 }
+
 #subscribe {
     padding-top: 9vh;
 }
@@ -315,9 +331,9 @@ td {
     padding-top: 1vh;
     padding-bottom: -5vh;
     font-style: italic;
- }
+}
 
- #check-box-box {
+#check-box-box {
     padding-top: 1vh;
     padding-left: 0vw;
     font-size: 10px;
@@ -344,10 +360,10 @@ td {
 
 /*------------------------------ Footer --------------------------------*/
 
-#full-footer{
+#full-footer {
     background-color: #000000;
     min-height: 5vh;
-    min-width:100%;
+    min-width: 100%;
 }
 
 #footer-bar {
@@ -363,162 +379,84 @@ td {
 }
 
 
+
+
 /*------------------------------ Media Queries --------------------------------*/
 
+@media only screen and (max-width:1200px) {     /* ---------------------- max:1200px ------------------------ */
 
-@media(max-width:315px) {    /*---------------------- max:315px ------------------------*/
-    #title {
-        font-size: 6vh;
-        left: 10%;
+.video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 18vh;
+    left: 7vw;
+    width: 90%;
+    height: 65%;
+    }
+    
+    #video-textbox {
+    padding: 17vh 5vw 4vh;
     }
 
-    #icon-bar {
-        font-size: 3vh;
-        padding: 0vw 15vw;
+    #video-title {
+    font-size: 4vh;
     }
 
-    #header-bar {
-        padding-left: .5vw;
-        padding-bottom: -2vh;
-        font-size: 2vh;
-        }
+    #video-date {
+    font-size: 2vh;
+    }
 
-    td {
-        padding: 3vh 4vw;
-        }
-
-    #tour-dates {
-        font-size: 2.2vh;
-        }
-
-    #tour-address {
-        font-size: 1.6vh;
-        margin-bottom: 5px;
-        }
-
-    #tour-icons {
-        font-size: 1.3vh;
-        }
-
-    #view-tour {
-        padding-top: -3vh;
-        padding-bottom: 4vh;
-        font-size: 2.2vh;
-        }
-
-    #album-background {
-       background-position: 70% 0%;
-       background-repeat: no-repeat;
-       position: relative;
-       width: 100%;
-       min-height: 100vh;
-       opacity: 0.99;
-        }
-
+    #video-details {
+    font-size: 1.75vh;
+    }
+    
     #track-number {
-        font-weight: 600;
-        font-family: "Roboto Condensed";
-        font-size: 2.5vh;
-        color: #fafafa;
-        opacity: 0.6;
-}
-
+    font-size: 15px;
+    }
+    
     #track-title {
-        font-weight: 500;
-        font-family: "Roboto";
-        font-size: 2vh;
-        color: #fafafa;
-        margin-bottom: 5px;
-}
+    font-size: 12px;
+    margin-bottom: 5px;    
+    }
 
     #track-icon {
-        color: #fafafa;
-        padding: 0px;
-        text-decoration: none;
-        font-size: 3vh;
+    padding: -3px;
+    font-size: 20px;
     }
-
-    #wildflower-pic {
-        height: 100%;
-        width: 80vw;
-        position: relative;
-        left: 7%;
-        top: 7%;
-        }
-
-    #links-bar {
-        font-size: 1.1vh;
-        }
 }
 
-
-
-@media (max-width:424px) {    /*---------------------- max:424px ------------------------*/
-    #title {
-        font-size: 8vh;
-        left: 10%;
+@media only screen and (max-width:1100px) {     /* ---------------------- max:1100px ------------------------ */
+    
+    #track-title {
+    font-size: 11px;    
     }
 
-    #icon-bar {
-        font-size: 5vh;
-        padding: 0vw 12vw;
+    #track-icon {
+    font-size: 15px;
     }
-
-    #header-bar {
-        padding-left: 2.5vw;
-        padding-bottom: -2vh;
+    
+    #track-number {
         font-size: 2.5vh;
-        }
+        opacity: 0.6;
+    }
 
-    td {
-        padding: 3vh 4vw;
-        }
-
-    #tour-dates {
-        font-size: 3vh;
-        }
-
-    #tour-address {
-        font-size: 2vh;
+    #track-title {
+        font-size: 2.5vh;
         margin-bottom: 5px;
-        }
+    }
 
-    #tour-icons {
-        font-size: 1.8vh;
-        }
-
-    #view-tour {
-        padding-top: -3vh;
-        font-size: 2.5vh;
-        }
-
-    #album-background {
-       background-position: 70% 0%;
-       background-repeat: no-repeat;
-       position: relative;
-       width: 100%;
-       min-height: 100vh;
-       opacity: 0.99;
-        }
-
-    #wildflower-pic {
-        height: 100%;
-        width: 80vw;
-        position: relative;
-        left: 7%;
-        top: 7%;
-        }
-
-    #links-bar {
-        font-size: 1.5vh;
-        }
+    #track-icon {
+        padding: 0px;
+        font-size: 2.8vh;
+    }
 }
 
-
-@media (max-width:770px) {    /*---------------------- max:770px ------------------------*/
+@media only screen and (max-width:990px) {     /* ---------------------- max:990px ------------------------ */
+   
     #title {
         font-size: 10vh;
-        left: 10%;
+        left: 23%;
     }
 
     #icon-bar {
@@ -530,38 +468,64 @@ td {
         padding-left: 2.5vw;
         padding-bottom: -2vh;
         font-size: 2.5vh;
-        }
+    }
+    
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 18vh;
+    left: 7vw;
+    width: 90%;
+    height: 65%;
+    }
+    
+    #video-textbox {
+    padding: 14vh 5vw 4vh;
+    }
 
+    #video-title {
+    font-size: 3vh;
+    }
+
+    #video-date {
+    font-size: 2vh;
+    }
+
+    #video-details {
+    font-size: 1.6vh;
+    }
+    
     td {
         padding: 3vh 4vw;
-        }
+    }
 
     #tour-dates {
         font-size: 3vh;
-        }
+    }
 
     #tour-address {
         font-size: 2vh;
         margin-bottom: 5px;
-        }
+    }
 
     #tour-icons {
         font-size: 1.8vh;
-        }
+    }
 
     #view-tour {
         padding-top: -3vh;
         font-size: 2.5vh;
-        }
+    }
 
     #album-background {
-       background-position: 70% 0%;
-       background-repeat: no-repeat;
-       position: relative;
-       width: 100%;
-       min-height: 100vh;
-       opacity: 0.99;
-        }
+        background-position: 70% 0%;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        opacity: 0.99;
+    }
 
     #wildflower-pic {
         height: 100%;
@@ -569,35 +533,449 @@ td {
         position: relative;
         left: 7%;
         top: 7%;
-        }
+    }
 
-    #links-bar {
+    #links-bar{
+        padding-left: 1vw;
         font-size: 1.5vh;
-        }
-
-
     }
 
 
-
-/*---------------------- Responsive Video Code  ------------------------*/
-
-     /*
-
-        .youtube-responsive-container {
-        position:relative;
-        padding-bottom:56.25%;
-        padding-top:30px;
-        height:0;
-        overflow:hidden;
-        }
-
-        .youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
-        position:absolute;
-        top:0;
-        left:0;
-        width:100%;
-        height:100%;
-        }
 }
-                            */
+
+@media only screen and (max-width:800px) {  
+    
+    #title {
+        font-size: 9vh;
+        left: 20%;
+    }
+    
+    #icon-bar {
+        font-size: 3vh;
+        padding: 0vw 0vw;
+    }
+    
+    #header-bar {
+        padding-left: 2.5vw;
+        padding-top: 1vh;
+        font-size: 2vh;
+    }
+    
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 7vh;
+    left: 5vw;
+    width: 110%;
+    height: 65%;
+    }
+    
+    #video-textbox {
+    padding: 5vh 2vw 4vh;
+    }
+    
+    #video-title {
+    font-size: 2.5vh;
+    }
+    
+    #video-date {
+    font-size: 1.55vh;
+    }
+
+    #video-details {
+    font-size: 1.25vh;
+    }
+    
+    #track-number {
+        font-size: 2.5vh;
+        opacity: 0.6;
+    }
+
+    #track-title {
+        font-size: 2.1vh;
+        margin-bottom: 5px;
+    }
+
+    #track-icon {
+        padding: 0px;
+        font-size: 3.4vh;
+    }
+}
+
+@media only screen and (max-width:650px) {  
+    
+    #title {
+        font-size: 8.5vh;
+        left: 16%;
+    }
+    
+    #header-bar {
+        padding-left: 2.5vw;
+        padding-top: 1.25vh;
+        font-size: 1.8vh;
+    }
+    
+    #video-textbox {
+    padding: 14vh 5vw 4vh;
+}
+
+    #video-title {
+    font-family: "Roboto Condensed";
+    font-size: 6vh;
+}
+
+    #video-date {
+    font-family: arial;
+}
+
+    #video-details {
+    font-size: 2vh;
+}
+
+}
+ 
+@media only screen and (max-width:600px) {     /* ---------------------- max:600px ------------------------ */ 
+    
+    #title {
+        font-size: 8.25vh;
+        left: 16%;
+    }
+    
+    #header-bar {
+        padding-left: 2.5vw;
+        padding-top: 1.15vh;
+        font-size: 1.6vh;
+    }
+    
+    
+}
+ 
+@media only screen and (max-width:575px) {      /* ---------------------- max:575px ------------------------ */
+    
+    #title {
+        font-size: 8vh;
+        left: 12%;
+    }
+
+    #icon-bar {
+        font-size: 5vh;
+        padding: 0vw 17vw;
+    }
+
+    #header-bar {
+        padding-left: 9vw;
+        padding-bottom: -2vh;
+        font-size: 2.5vh;
+    }
+
+    td {
+        padding: 3vh 4vw;
+    }
+
+    #tour-dates {
+        font-size: 2.5vh;
+    }
+
+    #tour-address {
+        font-size: 1.7vh;
+        margin-bottom: 5px;
+    }
+
+    #tour-icons {
+        font-size: 1.8vh;
+    }
+
+    #view-tour {
+        padding-top: -3vh;
+        font-size: 2.5vh;
+        
+    }
+
+    #album-background {
+        background-position: 70% 0%;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        opacity: 0.99;
+    }
+
+    #wildflower-pic {
+        height: 100%;
+        width: 80vw;
+        position: relative;
+        left: 7%;
+        top: 7%;
+    }
+
+    #links-bar {
+        font-size: 1.5vh;
+    }
+}
+
+@media only screen and (max-width:460px) {        /*---------------------- max:460px ------------------------ */
+
+    
+  #track-title {
+    font-size: 2.5vh;    
+    }
+
+    #track-icon {
+    font-size: 2.8vh;
+    }
+}
+
+@media only screen and (max-width:425px) {        /*---------------------- max:425px ------------------------ */
+
+  #title {
+        font-size: 7.5vh;
+        left: 7%;
+    }
+
+    #icon-bar {
+        font-size: 4vh;
+        padding: 0vw 15vw;
+    }
+
+    #header-bar {
+        padding-left: 3vw;
+        padding-bottom: -2vh;
+        font-size: 2.25vh;
+    }
+    
+    
+  #track-title {
+        font-size: 2.5vh;    
+    }
+
+    #track-icon {
+        font-size: 2.8vh;
+    }
+    
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 8vh;
+    left: 8vw;
+    width: 80%;
+    height: 90%;
+    }
+    
+    #video-textbox {
+    padding: 3vh 5vw 4vh;
+    }
+    
+    #video-title {
+    font-size: 2.5vh;
+    }
+    
+    #video-date {
+    font-size: 1.75vh;
+    }
+
+    #video-details {
+    font-size: 1.25vh;
+    }
+    
+    #links-bar {
+        font-size: 1.2vh;
+    }
+}
+
+@media only screen and (max-width:380px) {        /*---------------------- max:380px ------------------------ */
+     
+    #title {
+        font-size: 7vh;
+        left: 5%;
+    }
+
+    #icon-bar {
+        font-size: 3.6vh;
+        padding: 0vw 12vw;
+    }
+
+    #header-bar {
+        padding-left: 3vw;
+        padding-bottom: -2vh;
+        font-size: 2vh;
+    }
+    
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 5vh;
+    left: 8vw;
+    width: 80%;
+    height: 90%;
+    }
+    
+    #video-textbox {
+    padding: 3vh 5vw 4vh;
+    }
+    
+    #video-title {
+    font-size: 2.5vh;
+    }
+    
+    #video-date {
+    font-size: 1.75vh;
+    }
+
+    #video-details {
+    font-size: 1.25vh;
+    }
+
+    td {
+        padding: 3vh 4vw;
+    }
+
+    #tour-dates {
+        font-size: 2.2vh;
+    }
+
+    #tour-address {
+        font-size: 1.6vh;
+        margin-bottom: 5px;
+    }
+
+    #tour-icons {
+        font-size: 1.3vh;
+    }
+
+    #view-tour {
+        padding-top: -10vh;
+        padding-bottom: 4vh;
+        font-size: 2.2vh;
+    }
+
+    #album-background {
+        background-position: 70% 0%;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        opacity: 0.99;
+    }
+
+    #track-number {
+        font-size: 2.5vh;
+        opacity: 0.6;
+    }
+
+    #track-title {
+        font-size: 2.1vh;
+        margin-bottom: 5px;
+    }
+
+    #track-icon {
+        padding: 0px;
+        font-size: 2vh;
+    }
+
+    #wildflower-pic {
+        height: 100%;
+        width: 80vw;
+        position: relative;
+        left: 7%;
+        top: 7%;
+    }
+
+    #links-bar {
+        font-size: 1.1vh;
+    }
+}
+
+@media only screen and (max-width:325px) {        /*---------------------- max:325px ------------------------ */
+
+    #title {
+        font-size: 6vh;
+        left: 4%;
+    }
+
+    #icon-bar {
+        font-size: 3vh;
+        padding: 0vw 13vw;
+    }
+
+    #header-bar {
+        padding-left: 4vw;
+        padding-bottom: -2vh;
+        font-size: 1.6vh;
+    }
+    
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 9vh;
+    left: 9vw;
+    width: 80%;
+    height: 90%;
+    }
+    
+    #video-textbox {
+    padding: 3vh 5vw 4vh;
+    }
+    
+    #video-title {
+    font-size: 2.5vh;
+    }
+    
+    #video-date {
+    font-size: 1.4vh;
+    }
+
+    #video-details {
+    font-size: 1.15vh;
+    }
+    
+    #view-tour {
+    font-size: 2.25vh;
+    left: 5vw; 
+    }
+    
+    #album-banner {
+    font-size: 6vh;
+    }
+    
+    #track-number {
+        font-size: 2.5vh;
+    }
+
+    #track-title {
+        font-size: 2.2vh;
+        margin-bottom: 5px;
+    }
+
+    #track-icon {
+        padding: 0px;
+        font-size: 3vh;
+    }
+}
