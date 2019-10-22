@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Big Shoulders Display:100,200,300,400,500,600,700|Fjalla One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Roboto Condensed:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
@@ -41,11 +42,7 @@ header {
     padding-bottom: -2vh;
 }
 
-li a,
-a:hover,
-a:visited,
-a:link,
-a:active {
+li a,a:hover,a:visited,a:link,a:active {
     text-decoration: none;
     color: #fafafa;
 }
@@ -394,7 +391,7 @@ td {
     width: 90%;
     height: 65%;
     }
-    
+
     #video-textbox {
     padding: 17vh 5vw 4vh;
     }
@@ -410,14 +407,14 @@ td {
     #video-details {
     font-size: 1.75vh;
     }
-    
+
     #track-number {
     font-size: 15px;
     }
-    
+
     #track-title {
     font-size: 12px;
-    margin-bottom: 5px;    
+    margin-bottom: 5px;
     }
 
     #track-icon {
@@ -427,15 +424,15 @@ td {
 }
 
 @media only screen and (max-width:1100px) {     /* ---------------------- max:1100px ------------------------ */
-    
+
     #track-title {
-    font-size: 11px;    
+    font-size: 11px;
     }
 
     #track-icon {
     font-size: 15px;
     }
-    
+
     #track-number {
         font-size: 2.5vh;
         opacity: 0.6;
@@ -453,7 +450,7 @@ td {
 }
 
 @media only screen and (max-width:990px) {     /* ---------------------- max:990px ------------------------ */
-   
+
     #title {
         font-size: 10vh;
         left: 23%;
@@ -469,7 +466,7 @@ td {
         padding-bottom: -2vh;
         font-size: 2.5vh;
     }
-    
+
     .video-container iframe,
     .video-container object,
     .video-container embed {
@@ -479,7 +476,7 @@ td {
     width: 90%;
     height: 65%;
     }
-    
+
     #video-textbox {
     padding: 14vh 5vw 4vh;
     }
@@ -495,7 +492,7 @@ td {
     #video-details {
     font-size: 1.6vh;
     }
-    
+
     td {
         padding: 3vh 4vw;
     }
@@ -543,24 +540,24 @@ td {
 
 }
 
-@media only screen and (max-width:800px) {  
-    
+@media only screen and (max-width:800px) {
+
     #title {
         font-size: 9vh;
         left: 20%;
     }
-    
+
     #icon-bar {
         font-size: 3vh;
         padding: 0vw 0vw;
     }
-    
+
     #header-bar {
         padding-left: 2.5vw;
         padding-top: 1vh;
         font-size: 2vh;
     }
-    
+
     .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -571,20 +568,20 @@ td {
     .video-container object,
     .video-container embed {
     position: absolute;
-    top: 7vh;
-    left: 5vw;
-    width: 110%;
+    top: 10vh;
+    left: 2vw;
+    width: 100%;
     height: 65%;
     }
-    
+
     #video-textbox {
-    padding: 5vh 2vw 4vh;
+    padding: 5vh 0vw 4vh;
     }
-    
+
     #video-title {
-    font-size: 2.5vh;
+    font-size: 3.2vh;
     }
-    
+
     #video-date {
     font-size: 1.55vh;
     }
@@ -592,7 +589,7 @@ td {
     #video-details {
     font-size: 1.25vh;
     }
-    
+
     #track-number {
         font-size: 2.5vh;
         opacity: 0.6;
@@ -609,19 +606,19 @@ td {
     }
 }
 
-@media only screen and (max-width:650px) {  
-    
+@media only screen and (max-width:650px) {
+
     #title {
         font-size: 8.5vh;
         left: 16%;
     }
-    
+
     #header-bar {
         padding-left: 2.5vw;
         padding-top: 1.25vh;
         font-size: 1.8vh;
     }
-    
+
     #video-textbox {
     padding: 14vh 5vw 4vh;
 }
@@ -640,25 +637,25 @@ td {
 }
 
 }
- 
-@media only screen and (max-width:600px) {     /* ---------------------- max:600px ------------------------ */ 
-    
+
+@media only screen and (max-width:600px) {     /* ---------------------- max:600px ------------------------ */
+
     #title {
         font-size: 8.25vh;
         left: 16%;
     }
-    
+
     #header-bar {
         padding-left: 2.5vw;
         padding-top: 1.15vh;
         font-size: 1.6vh;
     }
-    
-    
+
+
 }
- 
+
 @media only screen and (max-width:575px) {      /* ---------------------- max:575px ------------------------ */
-    
+
     #title {
         font-size: 8vh;
         left: 12%;
@@ -695,7 +692,7 @@ td {
     #view-tour {
         padding-top: -3vh;
         font-size: 2.5vh;
-        
+
     }
 
     #album-background {
@@ -722,9 +719,9 @@ td {
 
 @media only screen and (max-width:460px) {        /*---------------------- max:460px ------------------------ */
 
-    
+
   #track-title {
-    font-size: 2.5vh;    
+    font-size: 2.5vh;
     }
 
     #track-icon {
@@ -749,16 +746,16 @@ td {
         padding-bottom: -2vh;
         font-size: 2.25vh;
     }
-    
-    
+
+
   #track-title {
-        font-size: 2.5vh;    
+        font-size: 2.5vh;
     }
 
     #track-icon {
         font-size: 2.8vh;
     }
-    
+
     .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -774,15 +771,15 @@ td {
     width: 80%;
     height: 90%;
     }
-    
+
     #video-textbox {
     padding: 3vh 5vw 4vh;
     }
-    
+
     #video-title {
     font-size: 2.5vh;
     }
-    
+
     #video-date {
     font-size: 1.75vh;
     }
@@ -790,14 +787,14 @@ td {
     #video-details {
     font-size: 1.25vh;
     }
-    
+
     #links-bar {
         font-size: 1.2vh;
     }
 }
 
 @media only screen and (max-width:380px) {        /*---------------------- max:380px ------------------------ */
-     
+
     #title {
         font-size: 7vh;
         left: 5%;
@@ -813,7 +810,7 @@ td {
         padding-bottom: -2vh;
         font-size: 2vh;
     }
-    
+
     .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -829,15 +826,15 @@ td {
     width: 80%;
     height: 90%;
     }
-    
+
     #video-textbox {
     padding: 3vh 5vw 4vh;
     }
-    
+
     #video-title {
     font-size: 2.5vh;
     }
-    
+
     #video-date {
     font-size: 1.75vh;
     }
@@ -884,13 +881,13 @@ td {
     }
 
     #track-title {
-        font-size: 2.1vh;
+        font-size: 2.2vh;
         margin-bottom: 5px;
     }
 
     #track-icon {
-        padding: 0px;
-        font-size: 2vh;
+        padding-right: 4px;
+        font-size: 3.8vh;
     }
 
     #wildflower-pic {
@@ -923,7 +920,7 @@ td {
         padding-bottom: -2vh;
         font-size: 1.6vh;
     }
-    
+
     .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -939,15 +936,15 @@ td {
     width: 80%;
     height: 90%;
     }
-    
+
     #video-textbox {
     padding: 3vh 5vw 4vh;
     }
-    
+
     #video-title {
     font-size: 2.5vh;
     }
-    
+
     #video-date {
     font-size: 1.4vh;
     }
@@ -955,16 +952,23 @@ td {
     #video-details {
     font-size: 1.15vh;
     }
-    
+
     #view-tour {
     font-size: 2.25vh;
-    left: 5vw; 
+    left: 5vw;
     }
-    
+
+    #album-background {
+    background-position: 0% 35%;
+    min-width: 100%;
+    min-height: 120vh;
+    opacity: 0.888;
+    }
+
     #album-banner {
     font-size: 6vh;
     }
-    
+
     #track-number {
         font-size: 2.5vh;
     }
@@ -977,5 +981,17 @@ td {
     #track-icon {
         padding: 0px;
         font-size: 3vh;
+    }
+
+    #check-box-box {;
+    font-size: 9px;
+}
+
+    #links-bar {
+    font-size: 7px;
+    }
+
+    #contact-deets {
+        font-size: 12px;
     }
 }
