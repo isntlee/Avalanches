@@ -40,7 +40,7 @@ is traditionally at the bottom of a site. The section is completely functional a
 
 a) Social Links: allows users to access the band's social media platforms.
 
-b) Media Links: online access to further media related to the band.
+b) Navigation Menu: a visible and clear guide to the features of the site, each link directs to a named area of the site .
 
 c) Video-player: an inbuilt youtube player on the site, so that new users can become quickly familiar with the band's music videos and broader aesthetic.
 This same rational explains why "Frontier Psychiatrist" plays as a  30secs muted loop on the site.
