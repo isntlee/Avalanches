@@ -39,7 +39,7 @@ header {
     font-family: "Roboto Condensed";
     font-weight: 600;
     padding-bottom: -2vh;
-    padding-left: 1.25vw;
+    padding-left: .7vw;
 }
 
 li a,a:hover,a:visited,a:link,a:active {
@@ -95,7 +95,7 @@ h1 {
     }
 
 #video-textbox {
-    padding: 14vh 5vw 4vh;
+    padding: 1vh 5vw 4vh;
 }
 
 #video-title {
@@ -129,7 +129,7 @@ h1 {
 
 #tour-background {
     background-image: url('images/StarryNight-croppedMore.jpg');
-    min-height: 80vh;
+    min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -140,7 +140,7 @@ table {
 
     border-collapse: collapse;
     width: 100%;
-    margin: 20px 0px 20px 0px;
+    margin: 110px 0px 20px 0px;
 
 }
 
@@ -187,7 +187,7 @@ td {
     text-decoration: none;
     font-family: "Roboto Condensed";
     font-weight: 700;
-    padding: 6vh 8vw 0vh 0vw;
+    padding: 7vh 7vw 0vh 0vw;
 
 }
 
@@ -205,7 +205,6 @@ td {
     background-position: 0% 35%;
     background-repeat: no-repeat;
     position: relative;
-    min-width: 100%;
     width: 100%;
     min-height: 100vh;
     opacity: 0.888;
@@ -575,14 +574,14 @@ td {
     .video-container object,
     .video-container embed {
     position: absolute;
-    top: 10vh;
+    top: 17vh;
     left: 2vw;
     width: 100%;
     height: 65%;
     }
 
     #video-textbox {
-    padding: 5vh 0vw 4vh;
+    padding: 0vh 0vw 4vh;
     }
 
     #video-title {
@@ -736,7 +735,7 @@ td {
     }
 }
 
-@media only screen and (max-width:425px) {        /*---------------------- max:425px ------------------------ */
+@media only screen and (max-width:430px) {        /*---------------------- max:430px ------------------------ */
 
   #title {
         font-size: 7.5vh;
@@ -777,22 +776,31 @@ td {
     left: 8vw;
     width: 80%;
     height: 90%;
+    Margin-bottom: 0vh ;
     }
 
     #video-textbox {
-    padding: 3vh 5vw 4vh;
+    padding: 0vh 5vw 4vh;
+    padding-bottom: 0vh ;
+    Margin-bottom: 0vh ;
     }
 
     #video-title {
     font-size: 2.5vh;
+    padding-bottom: 0vh ;
+    Margin-bottom: 0vh ;
     }
 
     #video-date {
     font-size: 1.75vh;
+    padding-bottom: 0vh ;
+    Margin-bottom: 0vh ;
     }
 
     #video-details {
     font-size: 1.25vh;
+    padding-bottom: 0vh ;
+    Margin-bottom: 0vh ;
     }
 
     #links-bar {
@@ -831,11 +839,11 @@ td {
     top: 5vh;
     left: 8vw;
     width: 80%;
-    height: 90%;
+    height: 100%;
     }
 
     #video-textbox {
-    padding: 3vh 5vw 4vh;
+    padding: 0vh 5vw 4vh;
     }
 
     #video-title {
@@ -944,20 +952,25 @@ td {
     height: 90%;
     }
 
+
+
     #video-textbox {
-    padding: 3vh 5vw 4vh;
+    padding: -3vh 5vw 0vh;
     }
 
     #video-title {
     font-size: 2.5vh;
+    padding-bottom: 0vh;
     }
 
     #video-date {
     font-size: 1.4vh;
+    padding-bottom: 0vh;
     }
 
     #video-details {
     font-size: 1.15vh;
+    padding-bottom: 0vh;
     }
 
     #view-tour {
