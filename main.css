@@ -39,7 +39,7 @@ header {
     font-family: "Roboto Condensed";
     font-weight: 600;
     padding-bottom: -2vh;
-    padding-left: .7vw;
+    padding-left: .8vw;
 }
 
 li a,a:hover,a:visited,a:link,a:active {
@@ -341,7 +341,7 @@ td {
     color: #fafafa;
     font-weight: 600;
     margin-left: -1vw;
-    padding-left: -1vw;
+    padding-left: 1vw;
     padding-top: 0vh;
     background-color: transparent;
     border: 0px;
@@ -776,31 +776,24 @@ td {
     left: 8vw;
     width: 80%;
     height: 90%;
-    Margin-bottom: 0vh ;
     }
 
     #video-textbox {
     padding: 0vh 5vw 4vh;
-    padding-bottom: 0vh ;
-    Margin-bottom: 0vh ;
+    padding-bottom:0 ;
+    Margin-bottom:0;
     }
 
     #video-title {
     font-size: 2.5vh;
-    padding-bottom: 0vh ;
-    Margin-bottom: 0vh ;
     }
 
     #video-date {
     font-size: 1.75vh;
-    padding-bottom: 0vh ;
-    Margin-bottom: 0vh ;
     }
 
     #video-details {
     font-size: 1.25vh;
-    padding-bottom: 0vh ;
-    Margin-bottom: 0vh ;
     }
 
     #links-bar {
@@ -922,7 +915,7 @@ td {
 
     #title {
         font-size: 6vh;
-        left: 4%;
+        left: 7%;
     }
 
     #icon-bar {
@@ -931,7 +924,7 @@ td {
     }
 
     #header-bar {
-        padding-left: 5.5vw;
+        padding-left: 6vw;
         padding-bottom: -2vh;
         font-size: 1.6vh;
     }
