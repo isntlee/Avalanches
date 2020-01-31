@@ -1,7 +1,6 @@
-Site Address: https://isntlee.github.io/The_Avalanches/
+https://isntlee.github.io/The_Avalanches/
 
-
-#The Avalanches
+# **The Avalanches**
 
 The project was to build a website for an Australian electronic music group, the core challenge was to mirror the group's
 eccentric style in the user interface and aesthetic choices made.
@@ -9,11 +8,7 @@ In tension with these ambitions, was the clear necessity to make the website as 
 
 
 
-
-
-##UX
-
-
+## **UX**
 
 This site is supposed to be a band site in the guise of current band sites, such Franz Ferdinand and Mumford & Sons.
 
@@ -35,10 +30,7 @@ is traditionally at the bottom of a site. The section is completely functional a
 
 
 
-
-
-
-##Features
+## **Features**
 
 a) Social Links: allows users to access the band's social media platforms.
 
@@ -61,9 +53,7 @@ h) Terms & Conditions Links: allow users to fully grasp the social/legal implica
 
 
 
-
-
-##Technologies Used
+## **Technologies Used**
 
 HTML5:  As the project was a website, HTML5 was necessary. It is crucial in arranging the separate elements necessary to build a site.
 Link: https://whatwg.org/
@@ -88,9 +78,7 @@ Link: https://shotcut.org/
 
 
 
-
-
-##Testing
+## **Testing**
 
 Features:
 a) New User/Social Links: On Desktop/laptop feature displays correctly, all social links operate as designed by opening the link in a new tab.
@@ -114,7 +102,6 @@ g) ...... ../ Social Links: Displays correctly, all social links operate as desi
 h) ..... .../Terms & Conditions: Displays correctly, all links operate as designed by opening the link in a new tab.
 
 
-
 Browsers:
 In testing, we have been unable to open AWS in other browsers, as the login details do not seem to function on Chrome. Access to AWS on Chrome is only
 possible by opening a Vocareum log-in page on Chrome.
@@ -126,31 +113,26 @@ and 1440px. At different screen sizes, features have been adapted to function co
 
 
 
-
-
-##Deployment
+## **Deployment**
 This project has been deployed to GitHub. The process went step by step, with steady updates in HTML/CSS together, later updates came with an
 expanded images folder and eventually a ReadMe file.
 
 
 
+## **Credits**
 
-
-##Credits
-
-Content
+Content:
 
 a)All social links taken from Font Awesome  (https://fontawesome.com/)
 
-Media
+Media:
 
 a)"Wildflower" album cover taken from Spotify (https://open.spotify.com/album/0j0djiGxLnBiW7meVc2PER)
 b)Looped 30secs clip of "Frontier Psychiatrist" video taken from YouTube (https://www.youtube.com/watch?v=qLrnkK2YEcE)
 c)Star-filled night sky taken from a Google search (https://www.google.com/search?q=star+night+sky&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiJ6Mj
 0h7DlAhXjoXEKHWcqBqYQ_AUIEigB&biw=1366&bih=697)
 
-
-Acknowledgements
+Acknowledgements:
 
 a)Looped video intro concept taken from Mumford & Sons site (https://www.mumfordandsons.com/)
 b)Music-player concept taken U2 site (https://www.u2.com/index/home), this concept then adapted for video-player.
