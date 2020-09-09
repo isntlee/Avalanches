@@ -1,4 +1,4 @@
-https://isntlee.github.io/The_Avalanches/
+https://isntlee.github.io/Avalanches/
 
 # **The Avalanches**
 
