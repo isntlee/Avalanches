@@ -77,27 +77,27 @@ are two modes available, select from either the Spotify or Soundcloud links avai
 
 **New User**
 
--Social Links : On Desktop/laptop feature displays correctly, all social links operate as designed by opening the link in a new tab.
+- Social Links : On Desktop/laptop feature displays correctly, all social links operate as designed by opening the link in a new tab.
 
-- ... ... /Media Links: Displays correctly, and links function, behaving as social links.
+- Media Links: Displays correctly, and links function, behaving as social links.
 
-- ... ... /Video-player: Displays correctly, and as user hits play the video plays immediately within situated Youtube window.
+- Video-player: Displays correctly, and as user hits play the video plays immediately within situated Youtube window.
 "View All Videos" opens new tab with the full selection of Youtube videos available.
 
-- ... .../Tour-list:Displays correctly, and all links related to tour dates function correctly, and "View All Tour Dates" opens a new tab in
+- Tour-list:Displays correctly, and all links related to tour dates function correctly, and "View All Tour Dates" opens a new tab in
 which takes the user to a full list of upcoming shows.
 
-- ... .../Music-player:Displays correctly, and all links attached open new tabs on either "Spotify" or "Soundcloud".
+- Music-player:Displays correctly, and all links attached open new tabs on either "Spotify" or "Soundcloud".
 
 **Current fan**
 
--Contact page: Displays correctly, and all three text input fields operate as designed.; as do the three check boxes. The "Subscribe"
+- Contact page: Displays correctly, and all three text input fields operate as designed.; as do the three check boxes. The "Subscribe"
 button makes critical use of information inputted and opens a new tab that conveys essential group info. The hover function operates correctly on
 "Subscribe" as it does on all hoverable links.
 
-- ...... ../ Social Links: Displays correctly, all social links operate as designed by opening the link in a new tab.
+- Social Links: Displays correctly, all social links operate as designed by opening the link in a new tab.
 
-- ..... .../Terms & Conditions: Displays correctly, all links operate as designed by opening the link in a new tab.
+- Terms & Conditions: Displays correctly, all links operate as designed by opening the link in a new tab.
 
 
 ### Browsers
@@ -126,8 +126,7 @@ expanded images folder and eventually a ReadMe file.
 
 - [Wildflower](https://open.spotify.com/album/0j0djiGxLnBiW7meVc2PER) - Album cover taken from Spotify
 - [Frontier Psychiatrist](https://www.youtube.com/watch?v=qLrnkK2YEcE) Looped 30secs clip taken from YouTube
-- [Star-filled night sky](https://www.google.com/search?q=star+night+sky&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiJ6Mj
-0h7DlAhXjoXEKHWcqBqYQ_AUIEigB&biw=1366&bih=697) taken from a Google search
+- [Star-filled night sky](https://www.google.com/search?q=star+night+sky&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiJ6Mj0h7DlAhXjoXEKHWcqBqYQ_AUIEigB&biw=1366&bih=697) taken from a Google search
 
 ### Acknowledgements 
 
