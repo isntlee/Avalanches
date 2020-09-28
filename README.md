@@ -111,7 +111,7 @@ and 1440px. At different screen sizes, features have been adapted to function co
 
 
 ## **Deployment**
-The live site can be found [**here**](https://isntlee.github.io/Avalanches/).This project has been deployed to GitHub. The process went gradually, step by step, with steady updates in HTML/CSS together, later updates came with an
+The live site can be found [**here**](https://isntlee.github.io/Avalanches/). This project has been deployed to GitHub. The process went gradually, step by step, with steady updates in HTML/CSS together, later updates came with an
 expanded images folder and eventually a ReadMe file.
 
 
