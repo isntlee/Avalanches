@@ -84,10 +84,10 @@ are two modes available, select from either the Spotify or Soundcloud links avai
 - Video-player: Displays correctly, and as user hits play the video plays immediately within situated Youtube window.
 "View All Videos" opens new tab with the full selection of Youtube videos available.
 
-- Tour-list:Displays correctly, and all links related to tour dates function correctly, and "View All Tour Dates" opens a new tab in
+- Tour-list: Displays correctly, and all links related to tour dates function correctly, and "View All Tour Dates" opens a new tab in
 which takes the user to a full list of upcoming shows.
 
-- Music-player:Displays correctly, and all links attached open new tabs on either "Spotify" or "Soundcloud".
+- Music-player: Displays correctly, and all links attached open new tabs on either "Spotify" or "Soundcloud".
 
 **Current fan**
 
@@ -111,7 +111,7 @@ and 1440px. At different screen sizes, features have been adapted to function co
 
 
 ## **Deployment**
-This project has been deployed to GitHub. The process went gradually, step by step, with steady updates in HTML/CSS together, later updates came with an
+The live site can be found [**here**](https://isntlee.github.io/Avalanches/).This project has been deployed to GitHub. The process went gradually, step by step, with steady updates in HTML/CSS together, later updates came with an
 expanded images folder and eventually a ReadMe file.
 
 
