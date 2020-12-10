@@ -15,31 +15,30 @@ body {
 header {
     background-image: url('images/StarryNight-croppedMore.1.jpg');
     background-color: #202020;
-    min-height: 10vh;
     margin: 0;
     width: 100vw;
 }
 
 #title {
     font-family: "Fjalla One";
+    text-align: center;
     font-weight: 600;
     color: #fafafa;
-    font-size: 8vh;
-    left: 33.5vw;
+    font-size: 6vw;
     opacity: 0.75;
     opacity: .8;
 
 }
 
 #icon-bar {
-    font-size: 2.7vh;
+    font-size: 1.8vw;
 }
 
 #header-bar {
     font-family: "Roboto Condensed";
     font-weight: 600;
     padding-bottom: -2vh;
-    padding-left: .8vw;
+    padding-left: 2vw;
 }
 
 li a,a:hover,a:visited,a:link,a:active {
@@ -919,12 +918,13 @@ td {
     }
 
     #icon-bar {
+        left: 40vw;
         font-size: 3vh;
         padding: 0vw 13vw;
     }
 
     #header-bar {
-        padding-left: 6vw;
+        padding-left: 8vw;
         padding-bottom: -2vh;
         font-size: 1.6vh;
     }
