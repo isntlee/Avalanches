@@ -584,7 +584,156 @@ td {
 
 @media only screen and (max-width:577px) {
 
+    
     #title {
+        font-size: 11vw;
+        text-align: center;
+        left: 0vw;
+    }
+
+    #icon-bar {
+        text-align: center;
+        font-size: 4.7vw;
+    }
+
+    #header-bar {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: -2vw;
+        margin-left: -4vw;
+    }
+
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 2vh;
+    left: 9vw;
+    width: 85%;
+    height: 80%;
+    }
+
+    table {
+    margin: 150px 0px -5px 0px;
+}
+
+    #video-textbox {
+    padding: -10vw 0vw 0vh;
+    }
+
+    #video-title {
+    text-align: center;
+    font-size: 2.5vh;
+    padding-bottom: 0vh;
+    }
+
+    #video-date {
+    text-align: center;
+    font-size: 1.4vh;
+    padding-bottom: 0vh;
+    }
+
+    #video-details {
+    text-align: center;
+    font-size: 1.15vh;
+    padding-bottom: 0vh;
+    }
+
+    #view-videos {
+    text-align: center; 
+    padding-top: 0vw;   
+    }
+
+    #tour-dates {
+    font-size: 3.2vw;
+    }
+
+    #tour-address {
+    font-size: 2.7vw;
+    }
+
+    #tour-icons {
+    font-size: 2.7vw;
+    }
+
+    #view-tour {
+    text-align: center;
+    padding-top: 7vw;
+    padding-bottom: 25vw;
+    font-size: 3.1vw;
+    left: 5vw;
+    }
+
+    #album-background {
+    background-position: 0% 35%;
+    min-width: 100%;
+    min-height: 120vh;
+    opacity: 0.888;
+    }
+
+    #album-banner {
+    font-size: 6vh;
+    }
+
+    #track-number {
+        font-size: 2.5vh;
+    }
+
+    #track-title {
+        font-size: 2.2vh;
+        margin-bottom: 5px;
+    }
+
+    #track-icon {
+        padding: 0px;
+        font-size: 3vh;
+    }
+
+    #contact-deets {
+        top: 25vw;
+    }
+
+    #check-box-box {
+    font-size: 9px;
+    }
+
+    #links-bar {
+    text-align: center;
+    font-size: 2vw;
+    }
+
+    .socials {
+    margin-left: 9vw;
+    }
+
+
+
+    #album-background {
+        background-position: 70% 0%;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        opacity: 0.99;
+    }
+
+    #wildflower-pic {
+        height: 100%;
+        width: 80vw;
+        position: relative;
+        left: 7%;
+        top: 7%;
+    }
+
+
+    /* #title {
         font-size: 8vh;
         left: 12%;
     }
@@ -642,7 +791,7 @@ td {
 
     #links-bar {
         font-size: 1.5vh;
-    }
+    } */
 
 
 
