@@ -94,7 +94,7 @@ h1 {
     }
 
 #video-textbox {
-    padding: 1vh 5vw 4vh;
+    padding: 1vh 5vw 2vh;
 }
 
 #video-title {
@@ -110,13 +110,13 @@ h1 {
     font-size: 1.2vw;
 }
 
-/* #view-videos {
+#view-videos {
     color: #fafafa;
     text-decoration: none;
     font-family: "Roboto Condensed";
     font-weight: 700;
     padding-top: 6vh;
-} */
+}
 
 
 #video-list tr td a:hover {
@@ -654,17 +654,12 @@ td {
     }
 
     #icon-bar {
-        /* left: 40vw; */
         font-size: 5.5vw;
-        /* padding: 0vw 13vw; */
-        /* text-align: center; */
     }
 
     #header-bar {
-        /* padding-left: 8vw;
-        padding-bottom: -2vh; */
         font-size: 3.5vw;
-        margin-top: -2vw;;
+        margin-top: -2vw;
         margin-left: 0vw;
     }
 
@@ -685,8 +680,12 @@ td {
     height: 80%;
     }
 
+    table {
+    margin: 150px 0px -5px 0px;
+}
+
     #video-textbox {
-    padding: -3vh 0vw 0vh;
+    padding: -10vw 0vw 0vh;
     }
 
     #video-title {
@@ -707,13 +706,27 @@ td {
     padding-bottom: 0vh;
     }
 
-    /* #view-videos {
-    left: 5vw;
-    text-align: center!important;    
-    } */
+    #view-videos {
+    text-align: center; 
+    padding-top: 0vw;   
+    }
+
+    #tour-dates {
+    font-size: 4vw;
+    }
+
+    #tour-address {
+    font-size: 3.5vw;
+    }
+
+    #tour-icons {
+    font-size: 3.5vw;
+    }
 
     #view-tour {
-    font-size: 2.25vh;
+    padding-top: 7vw;
+    padding-bottom: 25vw;
+    font-size: 4.5vw;
     left: 5vw;
     }
 
@@ -742,15 +755,23 @@ td {
         font-size: 3vh;
     }
 
+    #contact-deets {
+        top: 50vw;
+    }
+
     #check-box-box {
     font-size: 9px;
-}
+    }
 
     #links-bar {
     font-size: 7px;
     }
 
+    .socials {
+    margin-left: 7vw;
+    }
+
     #contact-deets {
-        font-size: 12px;
+    font-size: 12px;
     }
 }}
