@@ -110,13 +110,13 @@ h1 {
     font-size: 1.2vw;
 }
 
-#view-videos {
+/* #view-videos {
     color: #fafafa;
     text-decoration: none;
     font-family: "Roboto Condensed";
     font-weight: 700;
     padding-top: 6vh;
-}
+} */
 
 
 #video-list tr td a:hover {
@@ -671,37 +671,46 @@ td {
     .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    padding-top: 30px; 
+    height: 0; overflow: hidden;
     }
 
     .video-container iframe,
     .video-container object,
     .video-container embed {
     position: absolute;
-    top: 9vh;
+    top: 2vh;
     left: 9vw;
     width: 85%;
     height: 80%;
     }
 
     #video-textbox {
-    padding: -3vh 5vw 0vh;
+    padding: -3vh 0vw 0vh;
     }
 
     #video-title {
+    text-align: center;
     font-size: 2.5vh;
     padding-bottom: 0vh;
     }
 
     #video-date {
+    text-align: center;
     font-size: 1.4vh;
     padding-bottom: 0vh;
     }
 
     #video-details {
+    text-align: center;
     font-size: 1.15vh;
     padding-bottom: 0vh;
     }
+
+    /* #view-videos {
+    left: 5vw;
+    text-align: center!important;    
+    } */
 
     #view-tour {
     font-size: 2.25vh;
