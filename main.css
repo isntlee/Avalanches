@@ -37,7 +37,7 @@ header {
 #header-bar {
     font-family: "Roboto Condensed";
     font-weight: 600;
-    padding-bottom: -2vh;
+    padding-top: 1vw;
     padding-left: 2vw;
 }
 
@@ -89,7 +89,7 @@ h1 {
     position: absolute;
     top: 18vh;
     left: 7vw;
-    width:85%;
+    /* width:85%; */
     height: 50%;
     }
 
@@ -128,7 +128,7 @@ h1 {
 
 #tour-background {
     background-image: url('images/StarryNight-croppedMore.jpg');
-    min-height: 100vh;
+    min-height: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -423,92 +423,113 @@ td {
 
 
 
-@media only screen and (max-width:995px) {
+@media only screen and (max-width:990px) {
 
     #title {
-        font-size: 10vh;
-        /* left: 23%; */
+    font-size: 10vw;
+    text-align: center;
     }
 
     #icon-bar {
-        font-size: 3vh;
-        padding: 0vw 0vw;
+    font-size: 3vw;
     }
 
     #header-bar {
-        padding-left: 2.5vw;
-        padding-bottom: -2vh;
-        font-size: 2.5vh;
+    text-align: right;
+    font-size: 2vw;
+    padding-bottom: -2vw;
     }
 
     .video-container iframe,
     .video-container object,
     .video-container embed {
     position: absolute;
-    top: 18vh;
-    left: 7vw;
+    top: 15vw;
+    left: 5vw;
     width: 90%;
-    height: 65%;
+    height: 75%;
     }
 
     #video-textbox {
-    padding: 14vh 5vw 4vh;
+    padding: 0vw 0vw 0vw;
     }
 
     #video-title {
-    font-size: 3vh;
+    font-size: 3vw;
     }
 
     #video-date {
-    font-size: 2vh;
+    font-size: 1.7vw;
     }
 
     #video-details {
-    font-size: 1.6vh;
+    font-size: 1.6vw;
+    }
+
+    #view-videos {
+    padding-top: 1vw;
+    font-size: 2vw;   
     }
 
     td {
-        padding: 3vh 4vw;
+    padding: 2.2vw 4vw;
     }
 
     #tour-dates {
-        font-size: 3vh;
+    font-size: 2.4vw;
     }
 
     #tour-address {
-        font-size: 2vh;
-        margin-bottom: 5px;
+    font-size: 2vw;
+    margin-bottom: 5px;
     }
 
     #tour-icons {
-        font-size: 1.8vh;
+    font-size: 1.5vw;
     }
 
     #view-tour {
-        padding-top: -3vh;
-        font-size: 2.5vh;
+    padding-top: -3vw;
+    font-size: 2.3vw;
     }
 
     #album-background {
-        background-position: 70% 0%;
-        background-repeat: no-repeat;
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
-        opacity: 0.99;
+    background-position: 70% 0%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    opacity: 0.99;
     }
 
     #wildflower-pic {
-        height: 100%;
-        width: 80vw;
-        position: relative;
-        left: 7%;
-        top: 7%;
+    height: 100%;
+    width: 80vw;
+    position: relative;
+    left: 7%;
+    top: 7%;
+    }
+
+    #track-number {
+    font-size: 2.5vw;
+    }
+
+    #track-title {
+    font-size: 2vw;
+    }
+
+    #track-icon {
+    font-size: 3.5vw;
     }
 
     #links-bar{
-        padding-left: 1vw;
-        font-size: 1.5vh;
+    padding-top: 2vw;
+    font-size: 1.2vw;
+    }
+
+    .socials {
+    margin-left: 1vw;
+    font-size: 3.2vw;
     }
 }
 
@@ -550,7 +571,7 @@ td {
     }
 
     #video-textbox {
-    padding: 15vw 0vw 4vw;
+    padding: 5vw 0vw 4vw;
     }
 
     #video-title {
@@ -605,7 +626,6 @@ td {
 
 @media only screen and (max-width:575px) {
 
-    
     #title {
         font-size: 11vw;
         text-align: center;
