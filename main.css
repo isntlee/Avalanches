@@ -128,7 +128,7 @@ h1 {
 
 #tour-background {
     background-image: url('images/StarryNight-croppedMore.jpg');
-    min-height: 100vw;
+    /* min-height: 100vw; */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -148,7 +148,6 @@ td {
     padding: 20px 25px;
     color: #fafafa;
 }
-
 
 #tour-dates {
     font-weight: 700;
@@ -378,34 +377,155 @@ td {
 
 /*------------------------------ Media Queries --------------------------------*/
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:2500px) {
 
-.video-container iframe,
+    #title {
+    left: -1vw;
+    font-size: 5vw;
+    text-align: center;
+    }
+
+    #icon-bar {
+    font-size: 1.7vw;
+    }
+
+    #header-bar {
+    font-size: 1.2vw;
+    padding-bottom: 0vw;
+    }
+
+    .video-container iframe,
     .video-container object,
     .video-container embed {
     position: absolute;
-    top: 18vh;
+    top: 18vw;
+    left: 7vw;
+    width: 90%;
+    height: 58%;
+    }
+
+    #video-textbox {
+    padding: 9vw 5vw 5vw;
+    }
+
+    #video-title {
+    font-size: 2.5vw;
+    }
+
+    #video-date {
+    font-size: 1.5vw;
+    }
+
+    #video-details {
+    font-size: 1.3vw;
+    }
+
+    #view-videos {
+    padding-top: 5vw;
+    font-size: 1.7vw;   
+    }
+
+    #tour-background {
+    height: 70vw;
+    }
+
+    #view-tour {
+    font-size: 1.7vw;
+    }
+    
+    #track-number {
+    font-size: 1.05vw;
+    }
+
+    #track-title {
+    font-size: 1.15vw;
+    margin-bottom: 5px;
+    }
+
+    #track-icon {
+    padding: -3px;
+    font-size: 20px;
+    }
+
+    #wildflower-pic {
+    height: 37vw;
+    width: 37vw;
+    position: relative;
+    left: -1vw;
+    top: 10vw;
+    }
+
+    #email-updates {
+    padding-top: 10vw;
+}
+
+    #links-bar{
+    text-align: right;
+    padding-top: 1.5vw;
+    font-size: 1vw;
+    }
+
+    .socials {
+    margin-left: 1.2vw;
+    font-size: 2vw;
+    }
+}
+
+
+@media only screen and (max-width:1200px) {
+
+    #title {
+    left:2vw;
+    font-size: 7vw;
+    text-align: center;
+    }
+
+    #icon-bar {
+    font-size: 2vw;
+    }
+
+    #header-bar {
+    font-size: 1.5vw;
+    padding-bottom: 0vw;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 18vw;
     left: 7vw;
     width: 90%;
     height: 65%;
     }
 
     #video-textbox {
-    padding: 17vh 5vw 4vh;
+    padding: 8vw 5vw 4vw;
     }
 
     #video-title {
-    font-size: 4vh;
+    font-size: 2.5vw;
     }
 
     #video-date {
-    font-size: 2vh;
+    font-size: 1.5vw;
     }
 
     #video-details {
-    font-size: 1.75vh;
+    font-size: 1.5vw;
     }
 
+    #view-videos {
+    padding-top: 1vw;
+    font-size: 1.9vw;   
+    }
+
+    
+
+    #view-tour {
+    font-size: 2.1vw;
+    }
+    
     #track-number {
     font-size: 15px;
     }
@@ -419,11 +539,33 @@ td {
     padding: -3px;
     font-size: 20px;
     }
+
+    #wildflower-pic {
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    left: -1vw;
+    top: 12vw;
+    }
+
+    #email-updates {
+    padding-top: 10vw;
+}
+
+    #links-bar{
+    text-align: right;
+    padding-top: 1.5vw;
+    font-size: 1.2vw;
+    }
+
+    .socials {
+    margin-left: 1.2vw;
+    font-size: 2.5vw;
+    }
 }
 
 
-
-@media only screen and (max-width:990px) {
+@media only screen and (max-width:992px) {
 
     #title {
     font-size: 10vw;
@@ -535,7 +677,7 @@ td {
 
 
 
-@media only screen and (max-width:766px) {
+@media only screen and (max-width:767px) {
 
     #title {
         font-size: 12vw;
@@ -724,21 +866,21 @@ td {
     }
 
     #track-number {
-        font-size: 2.5vh;
+    font-size: 2.5vh;
     }
 
     #track-title {
-        font-size: 2.2vh;
-        margin-bottom: 5px;
+    font-size: 2.2vh;
+    margin-bottom: 5px;
     }
 
     #track-icon {
-        padding: 0px;
-        font-size: 3vh;
+    padding: 0px;
+    font-size: 3vh;
     }
 
     #contact-deets {
-        top: 25vw;
+    top: 25vw;
     }
 
     #check-box-box {
@@ -757,20 +899,20 @@ td {
 
 
     #album-background {
-        background-position: 70% 0%;
-        background-repeat: no-repeat;
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
-        opacity: 0.99;
+    background-position: 70% 0%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    opacity: 0.99;
     }
 
     #wildflower-pic {
-        height: 100%;
-        width: 80vw;
-        position: relative;
-        left: 7%;
-        top: 7%;
+    height: 100%;
+    width: 80vw;
+    position: relative;
+    left: 7%;
+    top: 7%;
     }
 
 
