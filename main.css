@@ -128,11 +128,14 @@ h1 {
 
 #tour-background {
     background-image: url('images/StarryNight-croppedMore.jpg');
-    /* min-height: 100vw; */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
+}
+
+#tour-background {
+    min-height: 100vw; 
 }
 
 table {
@@ -520,11 +523,13 @@ td {
     font-size: 1.9vw;   
     }
 
-    
-
     #view-tour {
     font-size: 2.1vw;
     }
+
+    /* #tour-background {
+    height: 60vw; 
+    } */
     
     #track-number {
     font-size: 15px;
@@ -635,6 +640,10 @@ td {
     font-size: 2.3vw;
     }
 
+    #tour-background {
+    height: 75vw; 
+    }
+
     #album-background {
     background-position: 70% 0%;
     background-repeat: no-repeat;
@@ -663,6 +672,10 @@ td {
     #track-icon {
     font-size: 3.5vw;
     }
+
+    #email-updates {
+    padding-top: 25vw;
+}
 
     #links-bar{
     padding-top: 2vw;
@@ -834,6 +847,10 @@ td {
     padding-top: 0vw;   
     }
 
+    #tour-background {
+    height: 100vh; 
+    }
+
     #tour-dates {
     font-size: 3.2vw;
     }
@@ -896,8 +913,6 @@ td {
     margin-left: 9vw;
     }
 
-
-
     #album-background {
     background-position: 70% 0%;
     background-repeat: no-repeat;
@@ -914,68 +929,6 @@ td {
     left: 7%;
     top: 7%;
     }
-
-
-    /* #title {
-        font-size: 8vh;
-        left: 12%;
-    }
-
-    #icon-bar {
-        font-size: 5vh;
-        padding: 0vw 17vw;
-    }
-
-    #header-bar {
-        padding-left: 9vw;
-        padding-bottom: -2vh;
-        font-size: 2.5vh;
-    }
-
-    td {
-        padding: 3vh 4vw;
-    }
-
-    #tour-dates {
-        font-size: 2.5vh;
-    }
-
-    #tour-address {
-        font-size: 1.7vh;
-        margin-bottom: 5px;
-    }
-
-    #tour-icons {
-        font-size: 1.8vh;
-    }
-
-    #view-tour {
-        padding-top: -3vh;
-        font-size: 2.5vh;
-
-    }
-
-    #album-background {
-        background-position: 70% 0%;
-        background-repeat: no-repeat;
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
-        opacity: 0.99;
-    }
-
-    #wildflower-pic {
-        height: 100%;
-        width: 80vw;
-        position: relative;
-        left: 7%;
-        top: 7%;
-    }
-
-    #links-bar {
-        font-size: 1.5vh;
-    } */
-
 
 
 @media only screen and (max-width:410px) {
@@ -1039,8 +992,13 @@ td {
     }
 
     #view-videos {
-    text-align: center; 
+    text-align: center;
+    font-size: 2vh; 
     padding-top: 0vw;   
+    }
+
+    #tour-background {
+    height: 120vh; 
     }
 
     #tour-dates {
@@ -1100,7 +1058,8 @@ td {
     }
 
     .socials {
-    margin-left: 7vw;
+    font-size: 5vw;
+    margin-left: 8.5vw;
     }
 
     #contact-deets {
