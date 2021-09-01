@@ -1,0 +1,2 @@
+- At large screen sizes, this becomes a mess
+- Beyond that, full page backgrounds' stretch far too much. 
